@@ -28,6 +28,7 @@ class MyKeyboard(KMKKeyboard):
             rows=self.row_pins,
             diode_orientation=self.diode_orientation,
             pull=digitalio.Pull.DOWN,
+
             # rollover_cols_every_rows=None, # optional
         )
 
